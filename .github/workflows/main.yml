@@ -1,14 +1,10 @@
 name: Unzip Utility
 
 on: push
-runs:
-  using: 'node16'
-  pre: 'setup.js'
-  main: 'index.js'
-  post: 'cleanup.js'
+
 jobs:
   file-extract:
-    runs-on: ubuntu-latest
+    runs-on: node16
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
