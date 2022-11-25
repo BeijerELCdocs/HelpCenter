@@ -8,7 +8,7 @@ def main():
     
     print('Unzipped files...')
     # Create a ZipFile Object and load sample.zip in it
-    with ZipFile('../1132-Help_Center-html5_-Help_Center.zip', 'r') as zipObj:
+    with ZipFile('../1132-Help_Center-html5_-Help_Center.zip') as zipObj:
        # Extract all the contents of zip file in current directory
        zipObj.extractall()
 
