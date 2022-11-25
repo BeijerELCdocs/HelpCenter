@@ -1,0 +1,114 @@
+
+
+
+/* Primary color for links, buttons, sidebar, portal-header etc */
+a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
+    color:#ed1b2eCC;
+}
+
+.bg-primary,.btn-primary,.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus,.site-sidebar,.portal-single-publication .publication-icon {
+    background-color:#00a98e;
+}
+
+.portal-header::before{
+  background-color: #253e4a99;  
+}
+
+
+.btn-primary,.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {
+    border-color:#ed1b2e;
+}
+
+/* Hover primary color */
+a:hover,a:focus,.btn-link:hover,.btn-link:focus {
+    color: #ed1b2eCC;
+}
+
+.nav-site-sidebar li a:focus{
+    background-color: transparent;
+}
+
+a.text-primary:hover,a.text-primary:focus,.btn-primary:hover,a.bg-primary:hover,a.bg-primary:focus,.btn-primary:focus,.btn-primary.focus,.btn-primary:active,.btn-primary.active,.open > .dropdown-toggle.btn-primary,.btn-primary:active:hover,.btn-primary.active:hover,.open>.dropdown-toggle.btn-primary:hover,.btn-primary:active:focus,.btn-primary.active:focus,.open>.dropdown-toggle.btn-primary:focus,.btn-primary:active.focus,.btn-primary.active.focus,.open>.dropdown-toggle.btn-primary.focus {
+    background-color:#ed1b2eCC;
+}
+
+.btn-primary:focus,.btn-primary.focus,.btn-primary:hover,.btn-primary:active,.btn-primary.active,.open > .dropdown-toggle.btn-primary,.btn-primary:active:hover,.btn-primary.active:hover,.open>.dropdown-toggle.btn-primary:hover,.btn-primary:active:focus,.btn-primary.active:focus,.open>.dropdown-toggle.btn-primary:focus,.btn-primary:active.focus,.btn-primary.active.focus,.open>.dropdown-toggle.btn-primary.focus {
+    border-color:#ed1b2eCC;
+}
+
+/* Secondary color - For portal search button, publication count */
+.portal-header .portal-search button,.publication-contents h4 span {
+    background-color:#00a98eCC;    
+}
+.portal-header .portal-search button:hover{
+     background-color:#00a98e;
+}
+
+/* Tertiary color - For pager */
+.pager li>a,.pager li>span {
+    color:#ed1b2eCC;   
+}
+
+.pager li>a:hover,.pager li>span:hover {
+    background-color:#ed1b2e;
+}
+
+/* How can we help you - Color */
+.portal-header{color:#fff;height:350px;padding:30px 15px;position:relative;text-align:center
+}
+
+/* Category Panel Icons */    
+.cat-panel:before{content:"\f3fb"}.cat-panel-1:before{content:"\f24d"}.cat-panel-2:before{content:"\f085"}.cat-panel-3:before{content:"\f0ac"}.cat-panel-4:before{content:"\f201"}
+}
+
+/* Adjust for RTL stepnumbers */
+section[dir=rtl] .procedure > li::before{
+    float: right;
+    margin-left: 10px;
+}
+
+.theme2 .procedure > li::before {
+  background-color: #333;
+}
+.theme1 .procedure > li::before {
+    background-color: #ed1b2eCC;
+}
+.h6,h1,h2,h3,h4,h5,h6{font-family:'Trebuchet MS', sans-serif;font-weight:500;line-height:1.1;color:inherit
+}
+.glyphicon-menu-up:before{content:"\e260"}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0, 0, 0, 0)}body{font-family:'Trebuchet MS', sans-serif;font-size:16px;line-height:1.4;color:#333333;background-color:#fff
+}
+.tooltip{position:absolute;z-index:1070;display:block;font-family:'Trebuchet MS', sans-serif;font-style:normal;font-weight:400;line-height:1.4;line-break:auto;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;word-wrap:normal;white-space:normal;font-size:14px;filter:alpha(opacity=0);opacity:0
+}
+.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:'Trebuchet MS', sans-serif;font-style:normal;font-weight:400;line-height:1.4;line-break:auto;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;letter-spacing:normal;word-break:normal;word-spacing:normal;word-wrap:normal;white-space:normal;font-size:16px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.2);border-radius:6px;-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);box-shadow:0 5px 10px rgba(0, 0, 0, 0.2)
+}
+
+h6, .h6{
+    font-weight: bold;
+}
+
+.theme1 .section-nav.nav li.active>a {
+    color: #ed1b2e;
+}
+
+.theme1 .section-nav.nav>li.active>a:before {
+    content: '';
+    border-radius: 50%;
+    left: -3px;
+    top: 12px;
+    background: #ed1b2e;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+}
+
+.copyright{
+    float:none;
+    margin-right: 30px;
+}
+span.guilabel {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+}
+
+
+
