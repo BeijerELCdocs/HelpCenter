@@ -28,5 +28,3 @@ execfile("delete.py")
 #
 #else:
 #    print('Unable to complete work.')
-
-# Version 1 of unzip-util, see https://github.com/johnapaz/unzip-util for details.
