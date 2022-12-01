@@ -1,6 +1,7 @@
 
 
 
+
 /* Primary color for links, buttons, sidebar, portal-header etc */
 a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
     color:#ed1b2eCC;
@@ -110,5 +111,8 @@ span.guilabel {
     font-weight: bold;
 }
 
+section-toc section-toc-after {
+display:none;
+}
 
 
