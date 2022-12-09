@@ -3,6 +3,7 @@
 
 
 
+
 /* Primary color for links, buttons, sidebar, portal-header etc */
 a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
     color:#243862;
@@ -13,7 +14,7 @@ a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-cont
 }
 
 .portal-header::before{
-  background-color: #253e4a99;  
+  background-color: #0C1D41;  
 }
 
 
@@ -48,7 +49,7 @@ a.text-primary:hover,a.text-primary:focus,.btn-primary:hover,a.bg-primary:hover,
 
 /* Tertiary color - For pager */
 .pager li>a,.pager li>span {
-    color:#ed1b2eCC;   
+    color:#243862;   
 }
 
 .pager li>a:hover,.pager li>span:hover {
@@ -94,7 +95,7 @@ h2, .h2{
     font-weight: bold;
 }
 .theme1 .section-nav.nav li.active>a {
-    color: #ed1b2e;
+    color: #243862;
 }
 
 .theme1 .section-nav.nav>li.active>a:before {
@@ -102,7 +103,7 @@ h2, .h2{
     border-radius: 50%;
     left: -3px;
     top: 12px;
-    background: #ed1b2e;
+    background: #243862;
     position: absolute;
     width: 6px;
     height: 6px;
@@ -309,5 +310,6 @@ div.feedback-panel .btn.focus, div.feedback-panel .btn:active.focus,
 div.feedback-panel .btn:active:focus, div.feedback-panel .btn:focus {
     outline: none;
 }
+
 
 
