@@ -4,6 +4,7 @@
 
 
 
+
 /* Primary color for links, buttons, sidebar, portal-header etc */
 a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
     color:#243862;
@@ -14,7 +15,7 @@ a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-cont
 }
 
 .portal-header::before{
-  background-color: #0C1D41;  
+  background-color: #ffffff00;  
 }
 
 
@@ -310,6 +311,7 @@ div.feedback-panel .btn.focus, div.feedback-panel .btn:active.focus,
 div.feedback-panel .btn:active:focus, div.feedback-panel .btn:focus {
     outline: none;
 }
+
 
 
 
