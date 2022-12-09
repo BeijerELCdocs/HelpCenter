@@ -5,6 +5,7 @@
 
 
 
+
 /* Primary color for links, buttons, sidebar, portal-header etc */
 a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
     color:#243862;
@@ -15,9 +16,16 @@ a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-cont
 }
 
 .portal-header::before{
-  background-color: #ffffff00;  
+  background-color: #0C1D41ff;  
 }
 
+.portal-header::after {
+    z-index: -5;
+    background: url(image/portal2b-bg.jpg) no-repeat center center;
+    background-size: cover;
+    opacity: .4;
+    filter: none;
+}
 
 .btn-primary,.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {
     border-color:#0C1D41;
@@ -311,6 +319,7 @@ div.feedback-panel .btn.focus, div.feedback-panel .btn:active.focus,
 div.feedback-panel .btn:active:focus, div.feedback-panel .btn:focus {
     outline: none;
 }
+
 
 
 
