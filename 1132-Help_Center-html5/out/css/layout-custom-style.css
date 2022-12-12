@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 /* Primary color for links, buttons, sidebar, portal-header etc */
 a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
     color:#243862;
@@ -269,9 +262,6 @@ span.guilabel {
     content: '\f071';
     color: #ed1b2e;
 }
-.section-toc.section-toc-after {
-display:none;
-}
 
 /* Feedback Panel */
 
@@ -293,16 +283,16 @@ div.feedback-panel{
     max-width: 66.66666667%;
     float: left;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 div.feedback-panel .btn{
     position: relative;
     float: left;
-    border: 1px solid #64cadc;
+    border: 1px solid ##00a98e;
     margin: 10px 20px !important;
     border-radius: 3px !important;
-    padding: 5px 30px;
+    padding: 5px 20px;
     background-color: transparent;
 }
 
@@ -310,7 +300,7 @@ div.feedback-panel .btn.active,
 div.feedback-panel .btn:active{
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: #64cadc;
+    background-color: ##00a98e;
     color: #ffffff;
 }
 
@@ -320,7 +310,12 @@ div.feedback-panel .btn:active:focus, div.feedback-panel .btn:focus {
     outline: none;
 }
 
-
+.portal-footer .inner, .site-footer .inner {
+    margin-top: 25px;
+    padding: 25px 0;
+    border-top: 1px solid #f5f5f5;
+    font-size: 12px;
+}
 
 
 
