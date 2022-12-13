@@ -1,5 +1,6 @@
 
 
+
 /* Primary color for links, buttons, sidebar, portal-header etc */
 a,.text-primary,.btn-link,.pagination>li>a,.pagination>li>span,.publication-contents a:hover {
     color:#243862;
@@ -318,6 +319,9 @@ div.feedback-panel .btn:active:focus, div.feedback-panel .btn:focus {
     font-size: 12px;
 }
 
-
+.portal-header .logo {
+    margin-bottom: 0;
+    height: 80px;
+}
 
 

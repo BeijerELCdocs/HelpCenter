@@ -3,9 +3,9 @@ $(document).ready(function () {
     $(document).ajaxComplete(function () {
     setWelcomeText();
     });
-var icon1 = "https://www.beijerelectronics.se/-/media/beijerelectronics,-d-,com/Images/Products/X2/585x400/585x400_X2_base_v2_group.ashx?mw=110&hash=438A0E59F4FE671F72E408B41B2B7A7DB353EDE8";
-var icon2 = "https://www.beijerelectronics.se/-/media/beijerelectronics,-d-,com/Images/Products/iX___Software/iX___HMI___Software/585x400_ix-software_logo.ashx?mw=110&hash=3892F1EE208881769D0FFCFE605813E12E741D48";
-var icon3 = "https://www.beijerelectronics.com/-/media/beijerelectronics,-d-,com/Images/Products/Fast___track___to___the___cloud/acirro-driverlist_585x400-icon.ashx?mw=110&hash=98B5ADACF3464D6E022D12E5E82502CA2D66AA6E";
+var icon1 = "https://www.beijerelectronics.com/-/media/beijerelectronics,-d-,com/Images/News___and___Events/Webinar/Webinar___images___585x400_linkedin_201013-17.ashx?as=1&h=136&la=en&mh=200&w=200&hash=B496BF98ADD1E37F70AAB894E95D4AEDF4C7C9C1";
+var icon2 = "https://www.beijerelectronics.com/-/media/beijerelectronics,-d-,com/Images/News___and___Events/Webinar/Webinar___images___585x400_linkedin_201013-15.ashx?as=1&h=136&la=en&mh=200&w=200&hash=3BABB1ABFFF7494EF993640A72A6928F0226B2C3"
+var icon3 = "https://www.beijerelectronics.com/-/media/beijerelectronics,-d-,com/Images/News___and___Events/Webinar/Webinar-images-power-generators-585x585.ashx?as=1&h=136&la=en&mh=200&w=200&hash=AFF64520D8CE7A51F8DEEC48DA8DAC4769530391";
 
 $(".cat-panel-1").closest("a").prepend("<img src='" + icon1 + "'></img>");
 $(".cat-panel-2").closest("a").prepend("<img src='" + icon2 + "'></img>");
