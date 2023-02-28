@@ -12,7 +12,7 @@
   <param name="custom.css.source" select="/var/www/ccms/usr/beijerelectronics/xsl/custom/assets/layout-1616/639857ca32634.css"/>
   <param name="portal.logo.filename" select="/var/www/ccms/usr/beijerelectronics/xsl/custom/assets/layout-1616/639305331378e.png"/>
   <param name="portal.background.filename" select="/var/www/ccms/usr/beijerelectronics/xsl/custom/assets/layout-1616/63933e9a57ca3.png"/>
-  <param name="portal.background.filename.out" select="/paligo/tmp/beijerelectronics/production-63f72b0d11e7a5.53124235/1132-Help_Center-html5/out/css/image/portal-bg.jpg"/>
+  <param name="portal.background.filename.out" select="/paligo/tmp/beijerelectronics/production-63fe0443a80f66.69642129/1132-Help_Center-html5/out/css/image/portal-bg.jpg"/>
   <param name="company.name" select=""/>
   <param name="copyright.year" select=""/>
   <param name="copyright"> © 2022 <span xmlns="http://www.w3.org/1999/xhtml" class="phrase">Beijer Electronics</span> AB. All rights reserved. </param>
@@ -99,11 +99,11 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/beijerelectronics/production-63f72b0d11e7a5.53124235/1132-Help_Center-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/beijerelectronics/production-63fe0443a80f66.69642129/1132-Help_Center-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/beijerelectronics/production-63f72b0d11e7a5.53124235/1132-Help_Center-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/beijerelectronics/production-63fe0443a80f66.69642129/1132-Help_Center-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/beijerelectronics/production-63f72b0d11e7a5.53124235/1132-Help_Center-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/beijerelectronics/production-63fe0443a80f66.69642129/1132-Help_Center-html5/out/css/image/logo-dark.png"/>
   <param name="delayed.algolia.search" select="0"/>
   <param name="choose.startpage.by.role" select="0"/>
 </params>
